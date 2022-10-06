@@ -1,0 +1,130 @@
+body{
+    background-color: #e9d49d;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.outerDiv{
+    width: 60%;
+}
+.fa-eye-slash{
+    color: #898989;position: absolute; right: 38%; bottom: 3%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 28px 0px 0px 28px;
+}
+.secDiv{
+    background-color: #fff;
+    border-radius: 0px 28px 28px 0px;
+}
+.signup{
+    display: inline;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    color: #979797;
+    
+}
+.SignFlexBase{
+    text-align: center; 
+    width: fit-content; 
+    flex-direction: column;
+    margin-right: 2%;
+}
+input{
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid #979797;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: #979797;
+}
+.createbtn{
+    background-color: #fefcb2;
+    width: 60%;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .imgDiv{
+        display: none;
+    }
+    .box{
+        margin-left: 0% !important;
+    }
+    .secDiv{
+        padding: 0px;
+        background-color: #fff;
+        border-radius:  28px 28px ;
+    }
+    .or{
+        margin: 0%;
+    }
+    .outerDiv{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .signFlex{
+        flex-direction: column;
+    }
+    .signup{
+        margin-top: 9%;
+        margin-right: 0px;
+        
+    }
+    .fa-eye-slash{
+        color: #898989;position: absolute; right: 16%; bottom: 3%;
+    }
+    .createbtn{
+        width: 80%;
+    }
+    input{
+        width: 90%;
+    }
+    .SignFlexBase{
+        width: 100%;
+    }
+    
+  }
+  @media only screen and (max-width: 40px) {
+    .signup{
+        margin-top: 9%;
+        margin-right: 0px;
+        
+    }
+    .inp{
+        width: 80%;
+    }
+    .or{
+        margin: 0%;
+    }
+    .box{
+        margin-left: 0%;
+    }
+    input{
+        width: 80%;
+    }
+    .SignFlexBase{
+        width: 100%;
+    }
+    .createbtn{
+        width: 80%;
+    }
+    .fa-eye-slash{
+        color: #898989;position: absolute; right: 16%; bottom: 3%;
+    }
+    .secDiv{
+        padding: 0px;
+        background-color: #fff;
+        border-radius:  28px 28px ;
+    }
+  }
+  
